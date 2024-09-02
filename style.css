@@ -1,0 +1,127 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0%;
+}
+.layout{
+    display: flex;
+    flex-wrap: wrap;
+    height: 600px;
+}
+.nav-bar{
+    background-color: #4B5056;
+    width: 20%;
+    height: 2000px;
+    position: sticky;
+}
+.right-layout{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 80%;
+}
+.box{
+    padding: 20px 200px;
+}
+.section-one{
+    width: 100%;
+    background-color: bisque;
+    height: 550px;
+}
+.section-two{
+    margin-top: 20px;
+    text-align: center;
+}
+.blue{
+    color: #38A9E3;
+}
+hr{
+    margin-top: 70px;
+}
+.about-us{
+    background-color: #E9B043;
+    width: 100px;
+    padding: 20px 10px;
+    color: white;
+}
+.col{
+    text-align: center;
+} 
+.col img{
+    height: 250px;
+}
+.section-three{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+.orange{
+    color: #E9B043;
+}
+.section-four{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.section-four p{
+    width: 70%;
+    padding: 20px 0px;
+}
+.section-four img{
+    width: 30%;
+    height: 300px;
+}
+.services{
+    background-color: #984CEA;
+    width: 100px;
+    padding: 20px 10px;
+    color: white;
+}
+.section-five{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    justify-content: space-between;
+}
+.column{
+    background-color: #984CEA;
+    width: 30%;
+    height: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-right: 10px;
+}
+.icon{
+    width: 40px;
+}
+.violet{
+    color: #984CEA;
+    margin-top: 50px;
+}
+.portfolio{
+    background-color: #38E395;
+    width: 100px;
+    padding: 20px 10px;
+    color: white;
+}
+.green{
+    color: #38E395;
+}
+.load-more{
+    color: white;
+    background-color: #38E395;
+    text-align: center;
+    padding: 10px;
+    border-color: #38E395;
+    margin: 20px auto;
+    display: block;
+}
+.contact-us{
+    background-color: #E3387C;
+    width: 125px;
+    padding: 20px 10px;
+    color: white;
+}

@@ -1,0 +1,8 @@
+Grey - #4B5056
+Blue - #38A9E3
+Orange - #E9B043
+Light Gray - #CED6D7
+Violet - #984CEA
+Green - #38E395
+Pink - #E3387C
+Dark Grey - #31363A
