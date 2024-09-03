@@ -12,13 +12,28 @@ body{
 .nav-bar{
     background-color: #4B5056;
     width: 20%;
-    height: 2000px;
-    position: sticky;
+    height: 100vh;
+    position: fixed;
+}
+.nav-bar img{
+    margin: 20px;
+    width: 80%;
+}
+nav{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    
+}
+nav p{
+    height: 50px;
+    background-color: #31363A;
 }
 .right-layout{
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
+    margin-left: 20%;
     width: 80%;
 }
 .box{
@@ -26,7 +41,11 @@ body{
 }
 .section-one{
     width: 100%;
-    background-color: bisque;
+    background-image: ;
+    height: 550px;
+}
+.section-one img{
+    width: 100%;
     height: 550px;
 }
 .section-two{
@@ -124,4 +143,39 @@ hr{
     width: 125px;
     padding: 20px 10px;
     color: white;
+}
+.columns{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+footer{
+    margin-top: 108px;
+    background-color: #31363A;
+    height: 200px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.icon-section{
+    background-color: #4B5056;
+    height: 150px;
+    width: 99%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+}
+.icons{
+    background-color: #31363A;
+    height: 50px;
+    width: 50px;
+    margin-right: 10px;
+}
+.icons img{
+    height: 50px;
+    width: 50px;
+}
+.copyright{
+    text-align: left;
 }
